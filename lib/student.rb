@@ -4,8 +4,8 @@ class Student < User
     @knowledge = []
   end
   
-  def learn(knowledge)
-    self.knowledge << knowledge.join
+  def learn
+    self.knowledge << knowledge
   end
   
   
