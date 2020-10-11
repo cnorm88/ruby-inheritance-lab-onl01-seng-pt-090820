@@ -4,7 +4,7 @@ class Student < User
     @knowledge = []
   end
   
-  def learn(knowledge.join)
+  def learn(knowledge)
     self.knowledge << knowledge
   end
 
