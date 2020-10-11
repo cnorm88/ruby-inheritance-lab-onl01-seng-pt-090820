@@ -5,7 +5,7 @@ class Student < User
   end
   
   def learn(knowledge)
-    self.knowledge.stg << knowledge
+    self.knowledge.join << knowledge
   end
 
 end
